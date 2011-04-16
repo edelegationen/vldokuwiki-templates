@@ -26,7 +26,7 @@ if (!defined('DOKU_INC')) die();
     <div class="stylehead">
         <div class="header" role="banner">
             <div class="logo">
-                <a href="/"><img src="<?php echo DOKU_TPL?><?php echo $conf['logo_url']; ?>" alt="<?php echo $conf['logo_alt']; ?>"></a>
+                <a href="/"><img src="<?php echo DOKU_TPL?><?php echo $conf['logo_img']; ?>" alt="<?php echo $conf['logo_alt']; ?>"></a>
             </div>
             <div class="logotext">
                 <?php echo $conf['title']?> <br>
