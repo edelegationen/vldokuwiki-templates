@@ -1,0 +1,18 @@
+
+Ett DokuWiki-tema byggt för feedback via kommentarer i högerkolumnen. 
+
+
+Installation
+------------
+
+1. Placera katalogen dwguideline-beta i lib/tpl i din DokuWiki-installation.
+
+2. Välj temat under inställningar i din DokuWIki-installation.
+
+3. Justera main.php för att ställa in vad som skall visas i högerkolumnen.
+
+
+Licens
+------
+
+Samma som för DokuWiki (GPLv2). 

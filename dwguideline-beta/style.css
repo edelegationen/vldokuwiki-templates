@@ -1,0 +1,9 @@
+
+div.dokuwiki a.iw_doku, div.dokuwiki a.interwiki {
+    background-image: none;
+    padding:0;
+}
+
+div.dokuwiki div.tags {
+    border-top:none;
+}

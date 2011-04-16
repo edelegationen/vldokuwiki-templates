@@ -1,0 +1,103 @@
+/**
+ * Design elements for default Template (based on the defualt DokuWiki
+ * template)
+ *
+ */
+
+/* -------------- top row --------------- */
+div.dokuwiki .header {
+    height: 85px;
+    max-width: __maxwidth__;
+    margin: 0 auto 0 auto;
+    border-bottom: solid 1px #66aa99;
+}
+
+div.stylehead {
+    background-color: #007399;
+    background-image: url('images/header-flush.gif');
+    background-repeat: repeat-x;
+    margin-bottom: 1em;
+}
+
+div#searchform {
+    float:right;
+    margin:20px 20px 0 0;
+}
+
+div.dokuwiki .pagename {
+    float: left;
+    font-size: 200%;
+    font-weight: bolder;
+    color: __background_alt__;
+    text-align: left;
+    vertical-align: middle;
+}
+
+div.dokuwiki .pagename a {
+    color: __extern__ !important;
+    text-decoration: none !important;
+}
+
+div.dokuwiki .logo {
+    font-weight: normal;
+    float:left;
+}
+
+div.dokuwiki .logo a {
+    text-decoration: none;
+}
+
+div.dokuwiki .logo a img {
+    float:left;
+    margin: 10px 20px 0 20px;
+}
+div.dokuwiki .logotext {
+    font-family: "Lucida Grande", Arial, sans-serif;
+    font-size: 1.5em;
+    color: #fff;
+    height: 60px;
+    float:left;
+    padding: 15px 20px 0 20px;
+    width: 50%;
+}
+
+div.dokuwiki .logotext .logosubtext {
+    font-size:0.7em;
+}
+
+/* ---------------  top and bottom bar ---------------- */
+div.dokuwiki .bar {
+    padding: 0.1em 0.15em;
+    margin: 0 auto 0 auto;
+    clear: both;
+    max-width: __maxwidth__;
+}
+
+div.dokuwiki .bar-left {
+    float: left;
+}
+
+div.dokuwiki .bar-right {
+    float: right;
+    text-align: right;
+}
+
+
+/* ------------- File Metadata ----------------------- */
+
+div.dokuwiki div.meta {
+    font-family: Arial, sans-serif;
+    clear: both;
+    margin: 1em auto 1em auto;
+    padding-top: 1em;
+    color: __text_neu__;
+    font-size: 70%;
+}
+
+div.dokuwiki div.meta div.user {
+    float: left;
+}
+
+div.dokuwiki div.meta div.doc {
+    text-align: right;
+}

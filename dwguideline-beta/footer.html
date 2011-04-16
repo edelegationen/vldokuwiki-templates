@@ -1,0 +1,22 @@
+<?php
+/**
+ * Example footer include
+ *
+ * This file shows you how to use the include hooks. However I recommend to
+ * create your own complete new template instead.
+ */
+
+$tgt = ($conf['target']['extern']) ? 'target="'.$conf['target']['extern'].'"' : '';
+?>
+
+<div class="footerinc">
+
+  <?php
+    $lic = license_img('button');
+    if($lic){
+  ?>
+  <a <?php echo $tgt?> href="<?php echo $license[$conf['license']]['url']?>" rel="license" title="<?php echo $license[$conf['license']]['name']?>"></a>
+  <?php } ?>
+
+</div>
+<?php include(dirname(__FILE__).'/dwtb.html') ?>
