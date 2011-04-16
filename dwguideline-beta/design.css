@@ -38,7 +38,7 @@ div.dokuwiki div.page div.content {
 .sidebar {
     float:right;
     width: 39%;
-    margin:3em 0 0 0;
+    margin: 0;
     padding:0;
 }
 
@@ -745,19 +745,6 @@ div.dokuwiki .section_highlight {
   background-color: __background_alt__ !important;
 }
 
-/* ------------------ Additional ---------------------- */
-
-div.footerinc {
-    text-align: center;
-}
-.footerinc a img {
-    opacity: 0.5;
-    border: 0;
-}
-
-.footerinc a:hover img {
-    opacity: 1;
-}
 
 /* ---------- AJAX quicksearch ----------- */
 
@@ -837,3 +824,39 @@ div.dokuwiki div.imagemeta img.thumb {
 #bar__bottom {
     margin-bottom: 2em;
 }
+
+div#footer .container {
+    margin: auto;
+}
+
+div#footer {
+    border-top: solid 1px #e0e0e0;
+    color: #777;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    min-height: 100px;
+}
+
+div#footer .sou {
+    float:left;
+    margin: 0 40px 20px 0;
+}
+
+div#footer address {
+    padding-top: 1em;
+    font-style: normal;
+    font-size: 0.9em;
+    line-height: 1.6em;
+}
+
+div#footer address a {
+    color: #777;
+    text-decoration:none;
+}
+
+div#footer address a:hover {
+    color: #00f;
+    text-decoration:underline;
+}
+
+

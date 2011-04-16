@@ -6,7 +6,7 @@
 
 /* -------------- top row --------------- */
 div.dokuwiki .header {
-    height: 85px;
+    height: 100px;
     max-width: __maxwidth__;
     margin: 0 auto 0 auto;
     border-bottom: solid 1px #66aa99;
@@ -49,15 +49,15 @@ div.dokuwiki .logo a {
 
 div.dokuwiki .logo a img {
     float:left;
-    margin: 10px 20px 0 20px;
+    margin: 20px 20px 0 20px;
 }
 div.dokuwiki .logotext {
     font-family: "Lucida Grande", Arial, sans-serif;
     font-size: 1.5em;
     color: #fff;
-    height: 60px;
+    height: 70px;
     float:left;
-    padding: 15px 20px 0 20px;
+    padding: 25px 20px 0 20px;
     width: 50%;
 }
 
@@ -101,3 +101,4 @@ div.dokuwiki div.meta div.user {
 div.dokuwiki div.meta div.doc {
     text-align: right;
 }
+

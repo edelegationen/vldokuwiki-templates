@@ -1,22 +1,11 @@
-<?php
-/**
- * Example footer include
- *
- * This file shows you how to use the include hooks. However I recommend to
- * create your own complete new template instead.
- */
-
-$tgt = ($conf['target']['extern']) ? 'target="'.$conf['target']['extern'].'"' : '';
-?>
-
-<div class="footerinc">
-
-  <?php
-    $lic = license_img('button');
-    if($lic){
-  ?>
-  <a <?php echo $tgt?> href="<?php echo $license[$conf['license']]['url']?>" rel="license" title="<?php echo $license[$conf['license']]['name']?>"></a>
-  <?php } ?>
-
+<div id="footer" role="contentinfo">			
+    <div class="container">
+        <div class="sou">
+            <a href="http://www.sou.gov.se/"><img src="<?php echo $conf["footer_img"] ?>" alt="Statens offentliga utredningar"></a></div>
+        <address>
+            E-delegationen | Karlavägen 100 | 103 33 Stockholm<br>
+            Tel: 08-405 10 00<br>
+            E-post: <a href="mailto:info@edelegationen.se">info@edelegationen.se</a>
+        </address>
+    </div>
 </div>
-<?php include(dirname(__FILE__).'/dwtb.html') ?>

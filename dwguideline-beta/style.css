@@ -1,3 +1,4 @@
+/* Override generated Dokuwiki styles here */
 
 div.dokuwiki a.iw_doku, div.dokuwiki a.interwiki {
     background-image: none;
@@ -7,3 +8,6 @@ div.dokuwiki a.iw_doku, div.dokuwiki a.interwiki {
 div.dokuwiki div.tags {
     border-top:none;
 }
+
+
+
