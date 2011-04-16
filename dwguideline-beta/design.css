@@ -22,7 +22,7 @@ body {
 
 /* the document */
 div.dokuwiki div.page {
-  margin: 0 auto 0 auto;
+  margin: 2em auto 0 auto;
   min-height: 400px;
   max-width: __maxwidth__;
   line-height: 1.4em;
@@ -38,7 +38,7 @@ div.dokuwiki div.page div.content {
 .sidebar {
     float:right;
     width: 39%;
-    margin: 0;
+    margin: 1em 0 0 0 ;
     padding:0;
 }
 
@@ -842,6 +842,10 @@ div#footer .sou {
     margin: 0 40px 20px 0;
 }
 
+div#footer .sou a img {
+    border:none;
+}
+
 div#footer address {
     padding-top: 1em;
     font-style: normal;
@@ -859,4 +863,7 @@ div#footer address a:hover {
     text-decoration:underline;
 }
 
-
+form.search label {
+    position:absolute;
+    left: -9999em;
+}

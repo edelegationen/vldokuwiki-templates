@@ -32,7 +32,9 @@ if (!defined('DOKU_INC')) die();
                 <?php echo $conf['title']?> <br>
                 <div class="logosubtext">E-delegationen</div>
             </div>
-            <div id="searchform" role="search"><?php tpl_searchform()?></div> 
+            <div id="searchform" role="search">
+                <?php /*old includehook*/ @include(dirname(__FILE__).'/search.html')?>
+            </div> 
         </div>
 
         <?php /*old includehook*/ @include(dirname(__FILE__).'/header.html')?>
