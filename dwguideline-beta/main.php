@@ -15,7 +15,6 @@ if (!defined('DOKU_INC')) die();
 <meta charset="utf-8">
 <title><?php tpl_pagetitle()?></title>
 <?php tpl_metaheaders()?>
-<link rel="shortcut icon" href="<?php echo DOKU_TPL?>images/favicon.ico" />
 <?php /*old includehook*/ @include(dirname(__FILE__).'/meta.html')?>
 </head>
 
