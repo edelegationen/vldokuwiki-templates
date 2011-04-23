@@ -63,7 +63,7 @@ if (!defined('DOKU_INC')) die();
             <!-- wikipage stop -->
         </div>
         <div class="sidebar">
-        <?php if($INFO["namespace"]=="vl2011") { ?>
+        <?php if(substr($INFO["namespace"],0,6)=="vl2011") { ?>
             <?php @include(dirname(__FILE__).'/commentsystem.html')?>
         <?php } else { ?>
             <?php @include(dirname(__FILE__).'/startpage_sidebar.html')?>
