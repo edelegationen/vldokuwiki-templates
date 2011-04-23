@@ -80,8 +80,7 @@ div.dokuwiki hr {
 }
 
 div.dokuwiki div.nothing {
-  text-align: center;
-  margin: 2em;
+    display:none;
 }
 
 /* ---------------- forms ------------------------ */
@@ -700,8 +699,7 @@ div.insitu-footnote {
 
 /* --------------- search result formating --------------- */
 div.dokuwiki .search_result {
-  margin-bottom: 6px;
-  padding: 0 10px 0 30px;
+  padding: 0;
 }
 
 div.dokuwiki .search_snippet {
@@ -721,24 +719,13 @@ div.dokuwiki strong.search_hit {
 }
 
 div.dokuwiki div.search_quickresult {
-  margin: 0 0 15px 30px;
-  padding: 0 10px 10px 0;
-  border-bottom: 1px dashed __border__;
+  margin: 0;
+  padding: 0;
 }
 div.dokuwiki div.search_quickresult h3 {
   margin: 0 0 1.0em 0;
   font-size: 1em;
   font-weight: bold;
-}
-
-div.dokuwiki ul.search_quickhits {
-  margin: 0 0 0.5em 1.0em;
-}
-
-div.dokuwiki ul.search_quickhits li {
-  margin: 0 1.0em 0 1.0em;
-  float: left;
-  width: 30%;
 }
 
 div.dokuwiki .section_highlight {
