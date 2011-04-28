@@ -10,4 +10,11 @@ div.dokuwiki div.tags {
 }
 
 
+div.notify {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-position: left center;
+    padding-left: 20px;
 
+}
