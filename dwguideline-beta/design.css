@@ -461,13 +461,16 @@ div.dokuwiki blockquote {
   padding-left: 3px;
 }
 
-div.dokuwiki pre {
+div.dokuwiki pre, div.dokuwiki code {
+  display:block;
   font-family: monospace;
-  font-size: 120%;
-  padding: 0.5em;
-  border: 1px dashed __border__;
+  padding: 0.5em 0.8em;
   color: __text__;
   overflow: auto;
+}
+
+div.dokuwiki code {
+    margin: 0 0 1em 0;
 }
 
 /* code blocks by indention */
@@ -476,7 +479,7 @@ div.dokuwiki pre.pre {
 }
 
 /* code blocks by code tag */
-div.dokuwiki pre.code {
+div.dokuwiki pre.code, div.dokuwiki code.code {
   background-color: __background_neu__;
 }
 
@@ -518,7 +521,7 @@ div.dokuwiki dl.file dt {
 
 /* inline code words */
 div.dokuwiki code {
-  font-size: 120%;
+  font-size: 100%;
 }
 
 /* inline tables */
